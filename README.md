@@ -1,3 +1,3 @@
-# Mixed Messages - READ ME file
+# Mixed Messages - READ ME
 
 A random Message Generator.
