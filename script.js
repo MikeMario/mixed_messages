@@ -31,6 +31,11 @@ const allAdvice = {
         "Catch up with friends or family."],
 };
 
+const quotes = [
+    "Believe you can and you're halfway there.", "Act as if what you do makes a difference. It does.", "Success is not final, failure is not fatal: It is the courage to continue that counts.", "The only limit to our realization of tomorrow is our doubts of today.", "Your present circumstances don't determine where you can go; they merely determine where you start.", "The only way to achieve the impossible is to believe it is possible.", "You are never too old to set another goal or to dream a new dream.", "What lies behind us and what lies before us are tiny matters compared to what lies within us.", "It does not matter how slowly you go as long as you do not stop.", "Happiness is not something ready made. It comes from your own actions.", "Keep your face always toward the sunshine—and shadows will fall behind you.", "The only person you are destined to become is the person you decide to be.", "Don’t watch the clock; do what it does. Keep going.", "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.", "The future belongs to those who believe in the beauty of their dreams."
+
+]
+
 if (getDayType === "Productive") {
     console.log(`You should have a Productive Day today.`)
     console.log(`Productive Day Advice: ${allAdvice.prodAdvice[genRandomNumber(allAdvice.prodAdvice.length)]}`)
@@ -47,7 +52,9 @@ if (getDayType === "Productive") {
 
 // let todaysMessage = [] // resulting array
 
-let dailyQuote = console.log(`This will be a daily quote to be displayed`)
+
+
+let dailyQuote = console.log(`Daily Quote: "${quotes[genRandomNumber(quotes.length)]}"`)
 
 
 //I can't focus with you bitches talking lol
