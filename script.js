@@ -45,16 +45,4 @@ if (getDayType === "Productive") {
 };
 
 
-// for (let obj in allAdvice) {
-//     let selectedIdx = genRandomNumber(allAdvice[obj].length)
-//     console.log(allAdvice[obj][selectedIdx])
-// }
-
-// let todaysMessage = [] // resulting array
-
-
-
 let dailyQuote = console.log(`Daily Quote: "${quotes[genRandomNumber(quotes.length)]}"`)
-
-
-//I can't focus with you bitches talking lol
